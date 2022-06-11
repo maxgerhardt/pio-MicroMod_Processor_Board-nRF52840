@@ -1,13 +1,15 @@
 # PlatformIO MicroMod nRF52840 Processor Support
 
-Per https://learn.sparkfun.com/tutorials/micromod-nrf52840-processor-hookup-guide/arduino-software-setup and https://github.com/sparkfun/MicroMod_Processor_Board-nRF52840.
+Per
+* https://learn.sparkfun.com/tutorials/micromod-nrf52840-processor-hookup-guide/arduino-software-setup
+* https://github.com/sparkfun/MicroMod_Processor_Board-nRF52840.
 
 ## Usage
 
 1. Download and open this project in VSCode with the PlatformIO extension.
 2. Use the [project task](https://docs.platformio.org/en/latest/integration/ide/vscode.html#project-tasks) "Build" once. **This is expected to fail**, but needed to download the platform and packages
 3. Open the folder `<home folder>\.platformio\packages\framework-arduino-mbed@3.0.1\variants`
-4. Copy the `SF_MM_nRF52840_PB` folder from this repo in that `variants` folder (so that `variants\nRF_MM_nRF52840_PB` exists)
+4. Copy the `SF_MM_nRF52840_PB` folder from this repo in that `variants` folder (so that `variants\SF_MM_nRF52840_PB` exists)
 5. Build again
 6. You should now get
 

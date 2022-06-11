@@ -16,6 +16,7 @@ Per
 ```
 RAM:   [==        ]  16.2% (used 42368 bytes from 262144 bytes)
 Flash: [=         ]   7.5% (used 73980 bytes from 983040 bytes)
+======================= [SUCCESS] Took 12.48 seconds =======================
 ```
 
 ## Notes
